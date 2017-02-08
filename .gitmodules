@@ -1,0 +1,6 @@
+[submodule "SupuestoServer"]
+	path = Server
+	url = git@github.com:jeromo/SupuestoServer
+[submodule "SupuestoClient"]
+	path = Client
+	url = git@github.com:jeromo/SupuestoClient
