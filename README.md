@@ -6,7 +6,7 @@ Related to Supuesto 1, install
     http://ftp.stack.nl/pub/users/dimitri/doxygen-1.8.13.linux.bin.tar.gz in teamcity-agent instance.
 
 Related to Supuesto 3, install
-    https://buildroot.org/downloads/Vagrantfile
+    docker pull coopermaa/buildroot_x86_64
     
 "Supuesto" creates the app described in assumption 4.
 It contains two git submodules, https://github.com/jeromo/SupuestoClient.git and https://github.com/jeromo/SupuestoServer.git
