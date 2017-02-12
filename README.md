@@ -2,6 +2,7 @@ The answers to Supuestos 1-4 are in png files SupuestoX
 Related to Supuesto 1, install 
     https://store.docker.com/community/images/jetbrains/teamcity-server
     https://store.docker.com/community/images/jetbrains/teamcity-agent
+    http://ftp.stack.nl/pub/users/dimitri/doxygen-1.8.13.linux.bin.tar.gz in teamcity-agent instance
 Related to Supuesto 3, install
     https://buildroot.org/downloads/Vagrantfile
     
