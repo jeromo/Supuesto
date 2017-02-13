@@ -1,4 +1,7 @@
-The answers to Supuestos 1-4 are in png files SupuestoX
+Supuesto 1: Supuesto1.pdf
+Supuesto 2: Supuesto2.pdf
+Supuesto 4: Supuesto4.png
+Supuesto 5: SupuestoServer.git and SupuestoClient.git
 
 Related to Supuesto 1, install 
     https://store.docker.com/community/images/jetbrains/teamcity-server
