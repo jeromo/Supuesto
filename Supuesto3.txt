@@ -1,0 +1,21 @@
+Supuesto 4
+
+Para generar el firmware, se utiliza un proyecto en teamcity, que se lanza sobre un agent que contiene buildroot configurado para generar el firmware de acuerdo a las especificaciones del proyecto
+Se supone que se desea seguir generando firmwares en otros proyecto con el entorno original
+Para cambiar estas especificaciones, debemos modificar el entorno de construcción en un nuevo agente, construido a partir del que estemos usando.
+Configuramos nuestro proyecto en teamcity para que use el nuevo agente
+En el nuevo agente, debemos hacer las siguientes modificaciones
+
+Para cambiar la versión de kernel, en el agente lanzamos Make menucongi, y a continuación:
+   1.-Select toolchain
+      1.1.- Select Kernel Headers
+      1.2.- Choose version: se elige la nueva versión (que corresponda con la versión del kernel a generar / usar)
+   2.- Select kernel 
+      Set version (la versión nueva que queremos generar / usar)
+   3.- Salvar en .config
+
+Para cambiar Alsa audio, cambiar version en ALSA_LIB_VERSION en package/alsa-lib/alsa-lib.mk
+
+después, generamos el nuevo entorno, lanzando "make"
+
+En nuestro código, han de realizarse los cambios necesarios para usar el nuevo driver alsa y el nuevo kernel, es decir, si ha cambiado el api de alguno de ellos en algo que afecte al código, como cambios en los includes
