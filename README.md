@@ -1,6 +1,11 @@
 Supuesto 1: Supuesto1.pdf
+
 Supuesto 2: Supuesto2.pdf
+
+Supuesto 3: Supuesto2.pdf
+
 Supuesto 4: Supuesto4.png
+
 Supuesto 5: SupuestoServer.git and SupuestoClient.git
 
 Related to Supuesto 1, install 
