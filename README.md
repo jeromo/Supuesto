@@ -2,7 +2,7 @@ Supuesto 1: Supuesto1.pdf
 
 Supuesto 2: Supuesto2.pdf
 
-Supuesto 3: Supuesto2.pdf
+Supuesto 3: Supuesto3.pdf
 
 Supuesto 4: Supuesto4.png
 
